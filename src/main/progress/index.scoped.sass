@@ -1,0 +1,37 @@
+
+.container
+  background: #000
+  display: flex
+  justify-content: center /** jcc **/
+  align-items: center /** jic **/
+  flex-direction: column /** fxd:c **/
+
+.progress-bar
+  background: grey
+  width: 15em
+  height: 1.5em
+  border-radius: 1em /** 21 **/
+  overflow: hidden /** o:h **/
+
+.progress-status
+  height: 100%
+  background: green
+  transition: width .2s /** trs **/
+
+.btn-container
+  display: flex
+  justify-content: center
+  align-items: center
+
+.button
+  background: #123722
+  height: 2em
+  width: 7em
+  border-radius: 1em /** bdrs:1em **/
+  border-style: none /** bds:n **/
+  margin: 0.5em
+  transition: box-shadow .5s
+  &:focus
+    box-shadow: 0 0 3pt 1pt red
+    transition: box-shadow 1s
+    outline: none
