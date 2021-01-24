@@ -1,0 +1,55 @@
+// .transaction-container>h6{You send}+.row>.p{{amount}}
+$color: #3f3f3f
+$dark: #000
+$bgColor: white
+
+.container
+  flex: 1.5
+  background: $bgColor
+  border-top-left-radius: 50px
+  border-top-right-radius: 50px
+  display: flex
+  flex-direction: column
+  padding: 0 50px 0 50px
+
+h2
+  margin-top: 50px
+  margin-bottom: 10px
+  font-weight: 700
+
+.refresh-icon
+  height: 50px
+  background: $dark
+  width: 50px
+  border-radius: 10px
+
+.transaction-container
+  flex: 1
+
+h5
+  margin-bottom: -30px
+  color: $color
+
+  // starters h w fx
+.row
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+p.amount
+  font-weight: 900
+  font-size: 36px
+
+button
+  height: 50px
+  border-radius: 5px
+
+button.convert
+  border-radius: 5px
+  margin-bottom: 50px
+
+button.first-btn
+  width: 50px
+  margin: 10px
+button.second-btn
+  width: 70px

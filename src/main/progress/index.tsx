@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 // import { Container, ProgressBar, ProgressStatus, Button } from './index.module.sass'
 import './index.scoped.sass'
 import template from './template'

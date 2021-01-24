@@ -1,9 +1,9 @@
 import React from 'react';
-import Main from './main';
+import Routes from './Routes';
 
 function App() {
   return (
-    <Main />
+    <Routes />
   );
 }
 

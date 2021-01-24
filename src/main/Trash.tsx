@@ -3,15 +3,14 @@ import Progress from './progress'
 import './index.scoped.sass'
 import CommandsLearn from '../commands-learn'
 
-function Main() {
+function Trash() {
 
   return (
     <div className="container">
-      <Calculator />
       <Progress /> {/*  C/ */}
       <CommandsLearn />
     </div>
   )
 }
 
-export default Main
+export default Trash
