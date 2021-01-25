@@ -1,0 +1,45 @@
+$bgColor: #A3F7BC
+$actionBtn: #000
+$light: #fff
+$lighter: darken(#fff, 50)
+// .container>h1.title{{title}}+img+p.paragraph{{paragraph}}+p.sub-paragraph{{subParagraph}}
+
+.container
+  background: $bgColor
+  padding: 0 25px 0 25px
+  height: 100vh
+  overflow: hidden
+  display: flex
+  flex-direction: column
+
+  .container-second
+    flex: 1
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+
+h1
+  position: absolute
+  left: 25px
+  top: 0
+
+img
+  margin-top: 20%
+  height: 30%
+  object-fit: contain
+
+.paragraph
+  font-weight: bold
+  font-size: 45px
+  margin-bottom: 0
+
+.sub-paragraph
+  font-size: 20px
+  margin: 40px 0 40px 0
+  color: $lighter
+
+button
+  height: 60px
+  border-radius: 30px
+  background-color: $actionBtn
+  color: $light
