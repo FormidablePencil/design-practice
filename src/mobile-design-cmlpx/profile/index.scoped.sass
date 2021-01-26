@@ -1,0 +1,41 @@
+// .container>.profile>img+.text-container>p.greeting{{greeting}}+p.profile-name{{profileName}}
+%bdrss
+  border-radius: 5px
+$bdrs: 5px
+$profileTxt: #1a1a1a
+$greetingTxt: #787676
+$imgBg: #fff
+$imgDimension: 30px
+
+.container
+  display: flex
+  justify-content: space-between
+  flex-direction: row
+
+img
+  background: $imgBg
+  width: $imgDimension
+  height: $imgDimension
+  padding: 5px
+  border-radius: $bdrs
+
+.profile-container
+  display: flex
+
+.text-container
+  margin-left: 10px
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+
+  p
+    margin: 0
+  p.greeting
+    color: $greetingTxt
+  p.profile-name
+    color: $profileTxt
+
+button.settings
+  height: $imgDimension + 10px
+  width: $imgDimension + 10px
+  @extend %bdrss
